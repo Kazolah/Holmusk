@@ -1,0 +1,334 @@
+{
+  "collection1": [
+    {
+      "foodlist": "acorn squash\nalfalfa sprouts\nalmond"
+    },
+    {
+      "foodlist": "anchovy\nanise\nappetizer"
+    },
+    {
+      "foodlist": "appetite\napple\napricot"
+    },
+    {
+      "foodlist": "artichoke\nasparagus\naspic"
+    },
+    {
+      "foodlist": "ate\navocado"
+    },
+    {
+      "foodlist": "bacon\nbagel\nbake\nbaked Alaska\nbamboo shoots\nbanana\nbarbecue\nbarley\nbasil"
+    },
+    {
+      "foodlist": "batter\nbeancurd\nbeans\nbeef\nbeet\nbell pepper\nberry\nbiscuit\nbitter"
+    },
+    {
+      "foodlist": "black beans\nblackberry\nblack-eyed peas\nblack tea\nbland\nblood orange\nblueberry\nboil\nbowl"
+    },
+    {
+      "foodlist": "boysenberry\nbran\nbread\nbreadfruit\nbreakfast\nbrisket\nbroccoli\nbroil"
+    },
+    {
+      "foodlist": "brownie\nbrown rice\nbrunch\nBrussels sprouts\nbuckwheat\nbuns\nburrito\nbutter\nbutter bean"
+    },
+    {
+      "foodlist": "cake\ncalorie\ncandy\ncandy apple\ncantaloupe\ncapers\ncaramel\ncaramel apple\ncarbohydrate\ncarrot\ncashew\ncassava\ncasserole\ncater\ncauliflower"
+    },
+    {
+      "foodlist": "caviar\ncayenne pepper\ncelery\ncereal\nchard\ncheddar\ncheese\ncheesecake\nchef\ncherry\nchew\nchicken\nchick peas\nchili"
+    },
+    {
+      "foodlist": "chips\nchives\nchocolate\nchopsticks\nchow\nchutney\ncilantro\ncinnamon\ncitron\ncitrus\nclam\ncloves\ncobbler\ncoconut"
+    },
+    {
+      "foodlist": "cod\ncoffee\ncoleslaw\ncollard greens\ncomestibles\ncook\ncookbook\ncookie\ncorn\ncornflakes\ncornmeal\ncottage cheese\ncrab\ncrackers\ncranberry"
+    },
+    {
+      "foodlist": "cream\ncream cheese\ncrepe\ncrisp\ncrunch\ncrust\ncucumber\ncuisine\ncupboard\ncupcake\ncurds\ncurrants\ncurry\ncustard"
+    },
+    {
+      "foodlist": "daikon\ndaily bread\ndairy\ndandelion greens\nDanish pastry"
+    },
+    {
+      "foodlist": "dates\ndessert\ndiet\ndigest\ndigestive system"
+    },
+    {
+      "foodlist": "dill\ndine\ndiner\ndinner\ndip"
+    },
+    {
+      "foodlist": "dish\ndough\ndoughnut\ndragonfruit"
+    },
+    {
+      "foodlist": "dressing\ndried\ndrink\ndry\ndurian"
+    },
+    {
+      "foodlist": "eat\nEdam cheese"
+    },
+    {
+      "foodlist": "edible\negg"
+    },
+    {
+      "foodlist": "eggplant\nelderberry"
+    },
+    {
+      "foodlist": "endive\nentree"
+    },
+    {
+      "foodlist": "fast\nfat\nfava bans\nfeast\nfed\nfeed"
+    },
+    {
+      "foodlist": "fennel\nfig\nfillet\nfire"
+    },
+    {
+      "foodlist": "fish\nflan\nflax\nflour\nfood"
+    },
+    {
+      "foodlist": "food pyramid\nfoodstuffs\nfork\nfreezer\nFrench fries"
+    },
+    {
+      "foodlist": "fried\nfritter\nfrosting\nfruit\nfry"
+    },
+    {
+      "foodlist": "garlic\ngastronomy\ngelatin\nginger"
+    },
+    {
+      "foodlist": "gingerale\ngingerbread\nglasses\nGouda cheese"
+    },
+    {
+      "foodlist": "grain\ngranola\ngrape\ngrapefruit"
+    },
+    {
+      "foodlist": "grated\ngravy\ngreenbean\ngreens"
+    },
+    {
+      "foodlist": "green tea\ngrub\nguacamole\nguava\ngyro"
+    },
+    {
+      "foodlist": "herbs\nhalibut\nham"
+    },
+    {
+      "foodlist": "hamburger\nhash\nhazelnut\nherbs"
+    },
+    {
+      "foodlist": "honey\nhoneydew\nhorseradish"
+    },
+    {
+      "foodlist": "hot\nhot dog\nhot sauce"
+    },
+    {
+      "foodlist": "hummus\nhunger\nhungry"
+    },
+    {
+      "foodlist": "ice\niceberg lettuce"
+    },
+    {
+      "foodlist": "iced tea\nicing"
+    },
+    {
+      "foodlist": "ice cream\nice cream cone"
+    },
+    {
+      "foodlist": "jackfruit\njalapeno"
+    },
+    {
+      "foodlist": "jam\njelly"
+    },
+    {
+      "foodlist": "jellybeans\njicama"
+    },
+    {
+      "foodlist": "jimmies\nJordan almonds\njug"
+    },
+    {
+      "foodlist": "julienne\njuice\njunk food"
+    },
+    {
+      "foodlist": "kale\nkebab"
+    },
+    {
+      "foodlist": "ketchup\nkettle"
+    },
+    {
+      "foodlist": "kettle corn\nkidney beans\nkitchen"
+    },
+    {
+      "foodlist": "kiwi\nknife"
+    },
+    {
+      "foodlist": "kohlrabi\nkumquat"
+    },
+    {
+      "foodlist": "ladle\nlamb\nlard\nlasagna\nlegumes"
+    },
+    {
+      "foodlist": "lemon\nlemonade\nlentils\nlettuce"
+    },
+    {
+      "foodlist": "licorice\nlima beans\nlime\nliver"
+    },
+    {
+      "foodlist": "loaf\nlobster\nlollipop\nloquat"
+    },
+    {
+      "foodlist": "lox\nlunch\nlunch box\nlunchmeat\nlychee"
+    },
+    {
+      "foodlist": "macaroni\nmacaroon\nmain course\nmaize\nmandarin orange\nmango\nmaple syrup"
+    },
+    {
+      "foodlist": "margarine\nmarionberry\nmarmalade\nmarshmallow\nmashed potatoes\nmayonnaise\nmeat\nmeatball"
+    },
+    {
+      "foodlist": "meatloaf\nmelon\nmenu\nmeringue\nmicronutrient\nmilk\nmilkshake\nmillet"
+    },
+    {
+      "foodlist": "mincemeat\nminerals\nmint\nmints\nmochi\nmolasses\nmole sauce\nmozzarella"
+    },
+    {
+      "foodlist": "muffin\nmug\nmunch\nmushroom\nmussels\nmustard\nmustard greens\nmutton"
+    },
+    {
+      "foodlist": "napkin\nnectar"
+    },
+    {
+      "foodlist": "nectarine\nnibble"
+    },
+    {
+      "foodlist": "noodles\nnosh\nnourish"
+    },
+    {
+      "foodlist": "nourishment\nnut\nnutmeg"
+    },
+    {
+      "foodlist": "nutrient\nnutrition\nnutritious"
+    },
+    {
+      "foodlist": "oats\noatmeal\noil"
+    },
+    {
+      "foodlist": "okra\noleo\nolive"
+    },
+    {
+      "foodlist": "omelet\nomnivore\nonion"
+    },
+    {
+      "foodlist": "orange\norder\noregano"
+    },
+    {
+      "foodlist": "oven\noyster"
+    },
+    {
+      "foodlist": "pan\npancake\npapaya\nparsley\nparsnip\npasta\npastry\npate\npatty\npattypan squash"
+    },
+    {
+      "foodlist": "peach\npeanut\npeanut butter\npea\npear\npecan\npeapod\npepper\npepperoni\npersimmon"
+    },
+    {
+      "foodlist": "pickle\npicnic\npie\npilaf\npineapple\npita bread\npitcher\npizza\nplate\nplatter\nplum"
+    },
+    {
+      "foodlist": "poached\npomegranate\npomelo\npop\npopsicle\npopcorn\npopovers\npork\npork chops\npot\npotato"
+    },
+    {
+      "foodlist": "pot roast\npreserves\npretzel\nprime rib\nprotein\nprovisions\nprune\npudding\npumpernickel\npumpkin\npunch"
+    },
+    {
+      "foodlist": "quiche"
+    },
+    {
+      "foodlist": "quinoa"
+    },
+    {
+      "foodlist": "radish\nraisin\nraspberry\nrations"
+    },
+    {
+      "foodlist": "ravioli\nrecipe\nrefreshments\nrefrigerator"
+    },
+    {
+      "foodlist": "relish\nrestaurant\nrhubarb"
+    },
+    {
+      "foodlist": "ribs\nrice\nroast\nroll"
+    },
+    {
+      "foodlist": "rolling pin\nromaine\nrosemary\nrye"
+    },
+    {
+      "foodlist": "saffron\nsage\nsalad\nsalami\nsalmon\nsalsa\nsalt\nsandwich\nsauce\nsauerkraut\nsausage\nsavory\nscallops\nscrambled\nseaweed"
+    },
+    {
+      "foodlist": "seeds\nsesame seed\nshallots\nsherbet\nshish kebab\nshrimp\nslaw\nslice\nsmoked\nsnack\nsoda\nsoda bread\nsole\nsorbet\nsorghum\nsorrel"
+    },
+    {
+      "foodlist": "soup\nsour\nsour cream\nsoy\nsoybeans\nsoysauce\nspaghetti\nspareribs\nspatula\nspices\nspicy\nspinach\nsplit peas\nspoon\nspork"
+    },
+    {
+      "foodlist": "sprinkles\nsprouts\nspuds\nsquash\nsquid\nsteak\nstew\nstir-fry\nstomach\nstove\nstraw\nstrawberry\nstring bean\nstringy\nstrudel"
+    },
+    {
+      "foodlist": "sub sandwich\nsubmarine sandwich\nsuccotash\nsuet\nsugar\nsummer squash\nsundae\nsunflower\nsupper\nsushi\nsustenance\nsweet\nsweet potato\nSwiss chard\nsyrup"
+    },
+    {
+      "foodlist": "taco\ntake-out\ntamale\ntangerine\ntapioca"
+    },
+    {
+      "foodlist": "taro\ntarragon\ntart\ntea\nteapot"
+    },
+    {
+      "foodlist": "teriyaki\nthyme\ntoast\ntoaster\ntoffee"
+    },
+    {
+      "foodlist": "tofu\ntomatillo\ntomato\ntorte\ntortilla"
+    },
+    {
+      "foodlist": "tuber\ntuna\nturkey\nturmeric\nturnip"
+    },
+    {
+      "foodlist": "ugli fruit"
+    },
+    {
+      "foodlist": "unleavened"
+    },
+    {
+      "foodlist": "utensils"
+    },
+    {
+      "foodlist": "vanilla\nveal"
+    },
+    {
+      "foodlist": "vegetable\nvenison"
+    },
+    {
+      "foodlist": "vinegar\nvitamin"
+    },
+    {
+      "foodlist": "wafer\nwaffle"
+    },
+    {
+      "foodlist": "walnut\nwasabi\nwater"
+    },
+    {
+      "foodlist": "water chestnut\nwatercress\nwatermelon"
+    },
+    {
+      "foodlist": "wheat\nwhey"
+    },
+    {
+      "foodlist": "whipped cream\nwok"
+    },
+    {
+      "foodlist": "yam"
+    },
+    {
+      "foodlist": "yeast"
+    },
+    {
+      "foodlist": "yogurt"
+    },
+    {
+      "foodlist": "yolk"
+    },
+    {
+      "foodlist": "zucchini"
+    }
+  ]
+}

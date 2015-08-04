@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.nirhart.parallaxscroll.views.ParallaxScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:parallax_factor="1.9"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingTop = "10dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_food"/>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:background="@android:color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="italic"
+                    android:textSize="30dp"
+                    android:text="NUTRIENTS"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_calories"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvCalorie"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" calories"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_fats"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvFat"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" fats"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 2nd row -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_carbs"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvCarbs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" carbs"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_fibre"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvFibre"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" dietry fibre"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 3rd row -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_protein"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvProtein"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" protein"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_sugar"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvSugar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" sugar"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 4th row -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_sodium"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvSodium"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" sodium"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_cholestrol"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvCholestrol"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" cholestrol"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 5th row -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_mono_fats"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvMonosaturated"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" monosaturated"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_poly_fats"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvPolysaturated"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" polysaturated"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- VITAMINS -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:textStyle="italic"
+                    android:textSize="30dp"
+                    android:text="VITAMINS"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_calcium"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvCalcium"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" calcium"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- 2nd row -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_vitamin_a"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvVitaminA"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" vitamin A"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 2nd row -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_vitamin_c"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvVitaminC"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" vitamin C"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_iron"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvIron"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" iron"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 3rd row -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_nitrogen"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvNitrogen"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" nitrogen"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_starch"
+                            android:layout_gravity="center_horizontal"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tvStarch"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0 g"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" starch"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</com.nirhart.parallaxscroll.views.ParallaxScrollView>

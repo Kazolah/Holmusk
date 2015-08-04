@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.example.kyawzinlatt94.holmusk.MainActivity$PlaceholderFragment">
+    <LinearLayout
+        android:id="@+id/llSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <AutoCompleteTextView
+            android:id="@+id/actvSearch"
+            android:hint="Search Food..."
+            android:paddingLeft="10dp"
+            android:imeOptions="actionGo"
+            android:textSize="15dp"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="80"
+            android:background="@drawable/border_edit_text"/>
+        <ImageView
+            android:id="@+id/ibSearch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:src="@drawable/ic_search"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ListView
+            android:id="@+id/lvRecentSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.3dip"
+        android:background="#000000" />
+    <LinearLayout
+        android:id="@+id/llDesc"
+        android:layout_below="@+id/llSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvDesc1"
+            android:text="@string/check_nutrient" android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@+id/llSearch"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/ibAddDiet"
+        android:layout_below="@+id/llDesc"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_add_diet"/>
+</LinearLayout>
